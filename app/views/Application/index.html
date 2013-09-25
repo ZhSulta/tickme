@@ -1,4 +1,676 @@
-#{extends 'main.html' /}
-#{set title:'Home' /}
+<!DOCTYPE html>
+<!-- saved from url=(0021)http://startuphub.io/ -->
+<html lang="en-US" class="csstransforms no-csstransforms3d csstransitions"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><link rel="stylesheet" type="text/css" href="public/imageslayers017.css" media="all"><link rel="stylesheet" type="text/css" href="public/imageswidgetbig056.css" media="all"><script type="text/javascript" src="public/imagesauth014.js"></script><script type="text/javascript" src="public/imageslayers018.js"></script><link rel="stylesheet" type="text/css" href="public/imageswidget115.css" media="all">
+	<meta charset="UTF-8">
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<title>StartupHub.io | A global community for dreamers and doers</title>
+	<link rel="stylesheet" href="@{'/public/stylesheets/settings.css'}" type="text/css" media="all" />
+    <link rel="stylesheet" href="@{'/public/stylesheets/captions.css'}" type="text/css" media="all" />
+    <link rel="stylesheet" href="@{'/public/stylesheets/style.css'}" type="text/css" media="all" />
+    <link rel="stylesheet" href="@{'/public/stylesheets/responsive.css'}" type="text/css" media="all" />
+    <link rel="stylesheet" href="@{'/public/stylesheets/standard.css'}" type="text/css" media="all" />
+    <link rel="stylesheet" href="@{'/public/stylesheets/flexslider.css'}" type="text/css" media="all" />
+    <link rel="stylesheet" href="@{'/public/stylesheets/color.css'}" type="text/css" media="all" />
 
-#{welcome /}
+    <script src="@{'/public/javascripts/analytics.js'}"></script>        
+    <script src="@{'/public/javascripts/jquery-1.7.2.min.js'}"></script>        
+	<script src="@{'/public/javascripts/jquery-ui-1.8.20.custom.min.js'}"></script>        
+	<script src="@{'/public/javascripts/jquery.themepunch.plugins.min.js'}"></script>        
+	<script src="@{'/public/javascripts/jquery.themepunch.revolution.min.js'}"></script>        
+	<script src="@{'/public/javascripts/jquery.easing.1.3.js'}"></script>        
+	<script src="@{'/public/javascripts/jquery.isotope.min.js'}"></script>        
+	<script src="@{'/public/javascripts/jquery.flexslider-min.js'}"></script>        
+	<script src="@{'/public/javascripts/script.js'}"></script>        
+	<script src="@{'/public/javascripts/custom.js'}"></script>        
+
+	
+	<script type="text/javascript" src="chrome-extension://bfbmjmiodbnnpllbbbfblcplfjjepjdn/js/injected.js"></script><style>[touch-action="none"]{ -ms-touch-action: none; touch-action: none; }[touch-action="pan-x"]{ -ms-touch-action: pan-x; touch-action: pan-x; }[touch-action="pan-y"]{ -ms-touch-action: pan-y; touch-action: pan-y; }[touch-action="scroll"],[touch-action="pan-x pan-y"],[touch-action="pan-y pan-x"]{ -ms-touch-action: pan-x pan-y; touch-action: pan-x pan-y; }</style></head>
+
+<body data-ember-extension="1">
+
+	<div id="background" style="background-color:white">
+		<div id="back_top" style="display: block;"></div>
+		<div id="page">
+			<div id="header" class="small-header" style="height: 40px;">
+				<div id="main-menu-toggle">
+					<div class="wrap">
+						<a href="public/imagesStartupHub.io   A global community for dreamers and doers.html">Home</a>
+						<a href="http://startuphub.io/features">Features</a>
+						<a href="http://startuphub.io/#">Donate</a>
+						<a href="http://startuphub.io/faq">FAQ</a>
+						<a href="http://startuphub.io/contact">Contact</a>
+					</div>
+				</div>
+				<div class="wrap">
+					<div id="logo-container">
+						<div id="logo-box">
+							<div id="logo">
+								<a id="logo-image" href="public/imagesStartupHub.io   A global community for dreamers and doers.html">
+									<img alt="site logo" src="public/images/logo.png" style="height: 40px;">
+								</a>
+							</div>
+						</div>	
+					</div>
+
+					<div id="main-menu">
+						<div class="menu-main-menu-container">
+							<ul id="menu-main-menu" class="menu">
+								<li class="current-menu-item"><a href="public/imagesStartupHub.io   A global community for dreamers and doers.html">Home</a></li>
+								<li><a href="http://startuphub.io/features">Features</a></li>
+								<li><a href="http://startuphub.io/donate">Donate</a></li>
+								<li><a href="http://startuphub.io/faq">FAQ</a></li>
+								<li><a href="http://startuphub.io/contact">Contact</a></li>
+							</ul>
+						</div> 
+						<div class="cleared"></div>
+					</div><!-- End Main Menu -->
+					
+					<div id="toggle-menu-button"></div>
+					<div class="cleared"></div>
+					<script>
+						jQuery('#toggle-menu-button').click(function(){
+							jQuery("#main-menu-toggle").slideToggle(350);
+						});
+						
+						jQuery(window).scroll(function() {
+							if(jQuery(this).scrollTop() !== 0) {
+								jQuery('#header').css('height','40px');	
+								jQuery('#header-placeholder').css('height','40px');	
+								jQuery('#header').find('img').css('height','40px');	
+								
+								jQuery('#header').addClass('small-header');
+							} else {
+								jQuery('#header').css('height','80px');	
+								jQuery('#header-placeholder').css('height','80px');	
+								jQuery('#header').find('img').css('height','80px');	
+								
+								jQuery('#header').removeClass('small-header');
+							}
+						});
+					</script>
+				</div>
+			</div><!-- End Header -->
+			<div id="header-placeholder" style="height: 40px;"></div>							
+			
+			
+
+			<!-- LOAD LAYOUT CONTENT -->
+
+				
+			<div id="slider">
+				<div class="slider-bottom"></div>
+									
+				<!-- START REVOLUTION SLIDER 2.3.1 -->
+						
+				<div id="rev_slider_1_1_wrapper" class="rev_slider_wrapper fullwidthbanner-container" style="margin:0px auto;background-color:#E9E9E9;padding:0px;margin-top:0px;margin-bottom:0px;max-height:500px;text-align: center;font-size:57px;">
+					<div id="rev_slider_1_1" class="rev_slider fullwidthabanner revslider-initialised tp-simpleresponsive" style="max-height: 500px; height: 610px;">						
+						<ul style="display: block;">
+							<li data-transition="fade" data-slotamount="7" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 20; opacity: 1;">
+								<div class="slotholder"><img src="public/images/slide_biglogo.png" alt="slide1-bg5" data-fullwidthcentering="true" class="defaultimg" style="width: 1338px; height: 538.7262079062958px; position: absolute; left: -25px; opacity: 1;"></div>
+																		
+								<div class="tp-caption medium_box_text sfl start" data-x="164" data-y="404" data-speed="300" data-start="800" data-easing="easeOutExpo" style="font-size: 30px; padding: 6px 14px; margin: 0px; border: 0px; line-height: 36px; white-space: nowrap; opacity: 1; left: 280px; top: 404px; -webkit-transform: rotate(0deg); visibility: visible;">A global, community-driven, launchpad for tech startups.</div>
+												
+<!-- 								<div class="tp-caption sfr"  
+									 data-x="362" 
+									 data-y="344" 
+									 data-speed="300" 
+									 data-start="1400" 
+									 data-easing="easeOutExpo"  ><a href='#' class='big-button'>Learn More</a></div>
+												 -->
+							</li>
+
+							<li data-transition="fade" data-slotamount="7" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1;">
+								<div class="slotholder"><img src="public/images/slide1-bg5.png" data-fullwidthcentering="true" class="defaultimg" style="width: 1338px; height: 538.7262079062958px; position: absolute; left: -25px; opacity: 0;"></div>
+																		
+								<div class="tp-caption big_white_text sft start" data-x="140" data-y="88" data-speed="300" data-start="500" data-easing="easeOutExpo" style="font-size: 52px; padding: 0px; margin: 0px; border: 0px; line-height: 96px; white-space: nowrap; opacity: 0; left: 256px; top: 38px; -webkit-transform: rotate(0deg); visibility: hidden;">NEED A TEAM FOR YOUR IDEA?</div>
+												
+								<div class="tp-caption medium_box_text sfl start" data-x="204" data-y="204" data-speed="300" data-start="800" data-easing="easeOutExpo" style="font-size: 30px; padding: 6px 14px; margin: 0px; border: 0px; line-height: 36px; white-space: nowrap; opacity: 0; left: 270px; top: 204px; -webkit-transform: rotate(0deg); visibility: hidden;">StartupHub helps you to build your dream team </div>
+												
+								<div class="tp-caption medium_box_text sfr start" data-x="214" data-y="256" data-speed="300" data-start="1100" data-easing="easeOutExpo" style="font-size: 30px; padding: 6px 14px; margin: 0px; border: 0px; line-height: 36px; white-space: nowrap; opacity: 0; left: 380px; top: 256px; -webkit-transform: rotate(0deg); visibility: hidden;">so you can launch your StartUp idea flawlessly.</div>
+												
+								<div class="tp-caption sfl start" data-x="470" data-y="344" data-speed="300" data-start="1700" data-easing="easeOutExpo" style="font-size: 57px; padding: 0px; margin: 0px; border: 0px; line-height: 24px; white-space: nowrap; opacity: 0; left: 536px; top: 344px; -webkit-transform: rotate(0deg); visibility: hidden;"><a href="http://startuphub.io/partnersearch" class="tp-button darkgrey big">Learn how</a></div>
+							</li>
+
+							<li data-transition="fade" data-slotamount="7" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1;">
+									<div class="slotholder"><img src="public/images/slide2-bg.png" alt="slide2-bg2" data-fullwidthcentering="true" class="defaultimg" style="width: 1338px; height: 538.7262079062958px; position: absolute; left: -25px; opacity: 0;"></div>
+																		
+<!-- 								<div class="tp-caption small_box_text sfb"  
+									 data-x="416" 
+									 data-y="24" 
+									 data-speed="300" 
+									 data-start="500" 
+									 data-easing="easeOutExpo"  ></div> -->
+												
+								<div class="tp-caption large_white_text2 sft start" data-x="100" data-y="71" data-speed="300" data-start="800" data-easing="easeOutExpo" style="font-size: 38px; padding: 0px; margin: 0px; border: 0px; line-height: 60px; white-space: nowrap; opacity: 0; left: 216px; top: 21px; -webkit-transform: rotate(0deg); visibility: hidden;">BRING YOUR STARTUP IDEA TO OUR LAUNCHPAD</div>
+												
+								<div class="tp-caption small_white_text sfl start" data-x="386" data-y="126" data-speed="2000" data-start="1100" data-easing="easeOutSine" style="font-size: 18px; padding: 0px; margin: 0px; border: 0px; line-height: 24px; white-space: nowrap; opacity: 0; left: 452px; top: 126px; -webkit-transform: rotate(0deg); visibility: hidden;">We will assist you with the launch</div>
+<!-- 								<div class="tp-caption small_box_text sfb"  
+									 data-x="376" 
+									 data-y="439" 
+									 data-speed="300" 
+									 data-start="500" 
+									 data-easing="easeOutExpo"  ></div> -->
+
+<!-- 								<div class="tp-caption small_white_text sfr"  
+									 data-x="436" 
+									 data-y="" 
+									 data-speed="2000" 
+									 data-start="1100" 
+									 data-easing="easeOutSine"  >Our global community will help you with the launch</div> -->
+												
+								<div class="tp-caption small_white_text sfl start" data-x="289" data-y="193" data-speed="2000" data-start="1100" data-easing="easeOutSine" style="font-size: 18px; padding: 0px; margin: 0px; border: 0px; line-height: 24px; white-space: nowrap; opacity: 0; left: 355px; top: 193px; -webkit-transform: rotate(0deg); visibility: hidden;"></div>
+												
+							
+							</li>
+							<li data-transition="fade" data-slotamount="7" data-masterspeed="300" style="visibility: visible; left: 0px; top: 0px; z-index: 18; opacity: 1;">
+								<div class="slotholder"><img src="public/images/slide3-bg.png" alt="slide3-bg" data-fullwidthcentering="true" class="defaultimg" style="width: 1338px; height: 538.7262079062958px; position: absolute; left: -25px; opacity: 0;"></div>
+																		
+	
+												
+								<div class="tp-caption large_box_text sfr start" data-x="40" data-y="177" data-speed="300" data-start="2500" data-easing="easeOutExpo" style="font-size: 48px; padding: 6px 18px; margin: 0px; border: 0px; line-height: 60px; white-space: nowrap; opacity: 0; left: 206px; top: 177px; -webkit-transform: rotate(0deg); visibility: hidden;">CONNECT</div>
+												
+								<div class="tp-caption large_white_text sfl start" data-x="326" data-y="184" data-speed="300" data-start="2800" data-easing="easeOutExpo" style="font-size: 48px; padding: 0px; margin: 0px; border: 0px; line-height: 60px; white-space: nowrap; opacity: 0; left: 392px; top: 184px; -webkit-transform: rotate(0deg); visibility: hidden;">EVERYWHERE</div>
+												
+								<div class="tp-caption small_box_text sfr start" data-x="160" data-y="277" data-speed="300" data-start="3100" data-easing="easeOutExpo" style="font-size: 18px; padding: 4px 10px; margin: 0px; border: 0px; line-height: 24px; white-space: nowrap; opacity: 0; left: 326px; top: 277px; -webkit-transform: rotate(0deg); visibility: hidden;">The Community</div>
+												
+								<div class="tp-caption small_white_text sfl start" data-x="326" data-y="282" data-speed="300" data-start="3300" data-easing="easeOutExpo" style="font-size: 18px; padding: 0px; margin: 0px; border: 0px; line-height: 24px; white-space: nowrap; opacity: 0; left: 392px; top: 282px; -webkit-transform: rotate(0deg); visibility: hidden;">Goes with you</div>
+												
+								<div class="tp-caption sfl start" data-x="711" data-y="10" data-speed="1000" data-start="800" data-easing="easeOutExpo" style="opacity: 0; left: 777px; top: 10px; -webkit-transform: rotate(0deg); visibility: hidden;"><img src="public/images/phone-flat.png" alt="Image 9" style="width: 260px; height: 478px;"></div>
+							</li>
+							
+						</ul>
+					<div class="tp-loader" style="display: none;"></div><div class="tp-bannertimer" style="visibility: hidden; width: 44.235955056179776%; overflow: hidden;"></div></div>
+				<div style="" class="tp-leftarrow tparrows round hidearrows"></div><div style="" class="tp-rightarrow tparrows round hidearrows"></div></div>				
+								
+				<script type="text/javascript">
+
+					var tpj=jQuery;
+					
+					tpj.noConflict();
+									
+					var revapi1;
+					
+					tpj(document).ready(function() {
+					
+					if (tpj.fn.cssOriginal != undefined)
+						tpj.fn.css = tpj.fn.cssOriginal;
+					
+					if(tpj('#rev_slider_1_1').revolution == undefined)
+						revslider_showDoubleJqueryError('#rev_slider_1_1');
+					else
+					   revapi1 = tpj('#rev_slider_1_1').show().revolution(
+						{
+							delay:9000,
+							startwidth:1056,
+							startheight:500,
+							hideThumbs:200,
+							
+							thumbWidth:100,
+							thumbHeight:50,
+							thumbAmount:4,
+							
+							navigationType:"none",
+							navigationArrows:"nexttobullets",
+							navigationStyle:"round",
+							
+							touchenabled:"off",
+							onHoverStop:"on",
+							
+							navigationHAlign:"center",
+							navigationVAlign:"bottom",
+							navigationHOffset:0,
+							navigationVOffset:20,
+
+							soloArrowLeftHalign:"left",
+							soloArrowLeftValign:"center",
+							soloArrowLeftHOffset:20,
+							soloArrowLeftVOffset:0,
+
+							soloArrowRightHalign:"right",
+							soloArrowRightValign:"center",
+							soloArrowRightHOffset:20,
+							soloArrowRightVOffset:0,
+									
+							shadow:0,
+							fullWidth:"on",
+
+							stopLoop:"off",
+							stopAfterLoops:-1,
+							stopAtSlide:-1,
+
+							shuffle:"off",
+							
+							hideSliderAtLimit:0,
+							hideCaptionAtLimit:0,
+							hideAllCaptionAtLilmit:0,
+							startWithSlide:0	
+						});
+					
+					});	//ready
+					
+				</script>
+				
+				<!-- END REVOLUTION SLIDER -->
+			</div>
+					
+			
+				
+			<div id="body">				
+				<div class="page-container">
+					<div class="page-section white-bg">
+						<div class="wrap wrap-fix-bot">
+							<div class="page-section-heading">
+								<div class="page-section-title"><span>HOW DOES IT WORK?</span></div>
+								<div class="page-section-subtitle">Helping you to connect the initial dots</div>
+							</div>
+																				
+							<div class="column3_1 ">	
+								<div class="feature-box">
+
+									<div class="feature-icon">
+										<img src="public/images/explore.png" alt="Explore Projects">
+
+
+									</div>
+
+
+									<div class="feature-name">
+										1 Discover
+									</div>
+									<div class="feature-content">
+										<p>Suggest your idea or startup project, or discover cool projects/people in our global database. Filter by popularity, niche, technology or location.</p>
+									</div>
+									<div class="feature-button">
+										<a href="http://startuphub.io/discover">Read More</a>
+									</div>
+								</div>
+							</div>	
+							<div class="column3_1 ">	
+								<div class="feature-box">
+									<div class="feature-icon">
+										<img src="public/images/team_up.png" alt="Team Up">
+									</div>
+									<div class="feature-name">
+										2 Team Up 
+									</div>
+									<div class="feature-content">
+										<p>Join forces with the like-minded members who complement your skills and want to work in a similar project. They are looking for you too! <!-- Build the perfect launch team: <br>Designer(s) + Dev(s) + BizDev(s)</p> -->
+									</p></div>
+									<div class="feature-button">
+										<a href="http://startuphub.io/team-up">Read More</a>
+									</div>
+								</div>
+							</div>	
+							<div class="column3_1 column-last">	
+								<div class="feature-box">
+									<div class="feature-icon">
+										<img src="public/images/launch.png" alt="Launch!">
+									</div>
+									<div class="feature-name">
+										3 Launch 
+									</div>
+									<div class="feature-content">
+										<p>Start working on your prototype/MVP and use the collective intelligence in our community forums in order to get guidance, testers, feedback or even clients!</p>
+									</div>
+									<div class="feature-button">
+										<a href="http://startuphub.io/launch">Read More</a>
+									</div>
+								</div>
+							</div>	
+								
+							<div class="cleared"></div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="page-container">
+					<div class="page-section primary-bg white-text">
+						<div class="wrap-quote-block">
+							<div class="overlay-bar"></div>										
+							<div class="quote-block-content">
+								<p>Building startups together. Globally.</p>
+							</div>
+<!-- 							<div class="pledge-reward">Pledge 0.1฿: Founder, included in our founders list</div>
+							<div class="pledge-reward">Pledge 1฿: Donator with early access</div>
+							<div class="pledge-reward">Pledge 5฿: All previous perks plus a t-shirt </div>
+							<div class="pledge-reward">Pledge 10฿: Sponsor with logo on our homepage</div>
+							<div class="pledge-reward">Pledge 15฿ or more: Platinum Sponsor with logo all over our webapp</div> -->
+						</div>
+					</div>
+				</div>
+
+				<div id="donate-container" class="page-container">
+					<div class="page-section white-bg">
+						<div class="wrap">
+																
+							<div class="page-section-heading">
+								<div class="page-section-title"><span>DONATE</span></div>
+							</div>
+																
+								<div id="donate-box">
+									<div class="column3_1">
+										<h3>5</h3>
+										<p>Backers</p>
+									</div>
+
+									<div class="column3_1">
+										<h3>40.9101</h3>
+										<p>Of 100 ฿</p>
+									</div>
+
+									<div class="column3_1 column-last">
+										<h3>0</h3>
+										<p>Days left</p>
+									</div>
+
+									<div class="cleared"></div>
+
+									<div class="column3_1">
+										
+									</div>
+
+									<div class="column3_1">
+										<div id="coinbase-holder">
+										<iframe src="./StartupHub.io   A global community for dreamers and doers_files/65f5f1a0e6b924b06266bc94af24643e.html" id="coinbase_button_iframe_65f5f1a0e6b924b06266bc94af24643e" name="coinbase_button_iframe_65f5f1a0e6b924b06266bc94af24643e" style="width: 249px; height: 46px; border: none; overflow: hidden;" scrolling="no" allowtransparency="true" frameborder="0" class="coinbase-fixer"></iframe></div>
+									</div>
+								
+									<div class="cleared"></div>
+								</div>
+
+								<div id="progressbar">
+									<div id="progressbardet" style="width: 41%;"></div>
+								</div> 
+
+							</div>
+							
+							<div class="cleared"></div>														
+
+							<script>
+								jQuery(document).ready(function(){
+									jQuery("#progressbardet").css("width", "41%");
+								});	
+							</script>
+							<script src="public/images/button.js" type="text/javascript"></script>
+
+						</div>	
+					</div>		
+				</div>
+				<div class="page-container">
+					<div class="page-section primary-bg white-text">
+						<div class="wrap">
+							<div class="overlay-bar"></div>										
+							<div class="page-section-heading">
+								<div class="page-section-title"><span>Platform Preview</span></div>
+								<div class="page-section-subtitle">checkout what we are building</div>
+							</div>
+							<div class="column3_1">
+								<div class="project-cell">
+									<div class="project-cell-thumb">
+										<div class="project-cell-thumb-window">
+											<a href="http://startuphub.io/#">
+												<img alt="project image" src="public/images/partner_search.png">
+											</a>
+											<div class="project-cell-bg"></div>
+											<div class="project-cell-hover">
+												<div class="project-cell-title">
+													<a href="http://startuphub.io/partnersearch"> Partner Search</a>
+												</div>
+												<div class="project-cell-category">
+													<a href="http://startuphub.io/partnersearch">Your ideal co-founder</a> 
+													<a href="http://startuphub.io/partnersearch">is here... looking for you.</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>							
+							
+							<div class="column3_1">
+								<div class="project-cell">
+									<div class="project-cell-thumb">
+										<div class="project-cell-thumb-window">
+											<a href="http://startuphub.io/forums">
+												<img alt="project image" src="public/images/forums.png">
+											</a>
+											<div class="project-cell-bg"></div>
+											<div class="project-cell-hover">
+												<div class="project-cell-title">
+													<a href="http://startuphub.io/forums"> Startup Forums</a>
+												</div>
+												<div class="project-cell-category">
+													<a href="http://startuphub.io/forums">Use the Collective <br> Intelligence</a>  
+													<a href="http://startuphub.io/forums"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="column3_1 column-last">
+								<div class="project-cell">
+									<div class="project-cell-thumb">
+										<div class="project-cell-thumb-window">
+											<a href="http://startuphub.io/projectsearch">
+												<img alt="project image" src="public/images/coming.png">
+											</a>
+											<div class="project-cell-bg"></div>
+											<div class="project-cell-hover">
+												<div class="project-cell-title">
+													<a href="http://startuphub.io/more-info-soon">Project Search</a>
+												</div>
+												<div class="project-cell-category">
+													<a href="http://startuphub.io/more-info-soon">Find Projects. Propose yours.</a> /
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+
+
+
+
+							<div class="cleared"></div>																					<div class="column3_1 ">
+								<div class="project-cell">
+									<div class="project-cell-thumb">
+										<div class="project-cell-thumb-window">
+											<a href="http://startuphub.io/mobile-first">
+												<img alt="project image" src="public/images/mobile_f.png">
+											</a>
+											<div class="project-cell-bg"></div>
+											<div class="project-cell-hover">
+												<div class="project-cell-title">
+													<a href="http://startuphub.io/mobile-first"> Mobile-ready</a>
+												</div>
+												<div class="project-cell-category">
+													<a href="http://startuphub.io/mobile-first">Connect with the community everywhere</a> 
+													<a href="http://startuphub.io/mmobile-first"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="column3_1 ">
+								<div class="project-cell">
+									<div class="project-cell-thumb">
+										<div class="project-cell-thumb-window">
+											<a href="http://startuphub.io/notifications">
+												<img alt="project image" src="public/images/coming.png">
+											</a>
+											<div class="project-cell-bg"></div>
+											<div class="project-cell-hover">
+												<div class="project-cell-title">
+													<a href="http://startuphub.io/more-info-soon"> Real-Time Twist</a>
+												</div>
+												<div class="project-cell-category">
+													<a href="http://startuphub.io/more-info-soon">Chat. Notifications. Get instant updates.</a>
+													<a href="http://startuphub.io/more-info-soon"></a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="column3_1 column-last">
+								<div class="project-cell">
+									<div class="project-cell-thumb">
+										<div class="project-cell-thumb-window">
+											<a href="http://startuphub.io/bitcoin-tips">
+												<img alt="project image" src="public/images/bitcoin_tips.png">
+											</a>
+											<div class="project-cell-bg"></div>
+											<div class="project-cell-hover">
+												<div class="project-cell-title">
+													<a href="http://startuphub.io/bitcointips"> Bitcoin Tips</a>
+												</div>
+												<div class="project-cell-category">
+													<a href="http://startuphub.io/bitcointips">Help People.</a> 
+													<a href="http://startuphub.io/bitcointips">Get Rewards.</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cleared"></div>																				
+						</div>	
+					</div>		
+				</div>
+				<div class="page-container">
+					<div class="page-section white-bg">
+						<div class="wrap">
+																
+							<div class="page-section-heading">
+								<div class="page-section-title invitetitle"><span>REQUEST INVITE</span></div>
+								<div class="page-section-subtitle">Limited beta invites for early access available</div>
+							</div>
+																
+							<div class="content">
+								<div class="search-form">
+									
+										<div class="button-block-left">
+											<input type="text" class="invite-input" name="s" id="s" value="" placeholder="Email">
+										</div>
+										<div class="button-block-right">
+											<input type="submit" class="invite-button" name="submit" id="invitesubmit" value="JOIN STARTUPHUB!">
+										</div>
+									
+								</div>
+								<div id="invite-done" class="page-section-title thanks" style="display:none"><span>THANK YOU!</span><br><br><div class="thnx">We'll notify you when the beta is ready!</div></div>
+							</div>
+							
+							<div class="cleared"></div>																			
+						</div>	
+					</div>		
+				</div>
+
+				<div class="page-container">
+					<div class="page-section highlight-bg white-text">
+						<div class="wrap-quote-block">
+							<div class="overlay-bar"></div>										
+							<div class="quote-block-content">
+								<p> “Keep away from people who try to belittle your ambitions. Small people always do that, but the really great make you feel that you, too, can become great.”</p>
+							</div>
+							<div class="quote-block-author">- Mark Twain -</div>
+						</div>
+					</div>
+				</div>
+
+				
+			</div>
+			
+				
+			
+			
+			
+			<div id="footer">
+				<div class="wrap">	
+					<div class="content">
+						<div id="footer-widget-container">
+							<div class="footer-widget">
+								<div class="sidebar-widget-title"><span>About us</span></div> 			
+								<div class="textwidget"><p>StartupHub.io is an alumni final project for the Stanford University online course "Startup Engineering", taught via Coursera by <a href="http://online.stanford.edu/instructors/balaji-s-srinivasan">Balaji S. Srinivasan.</a></p>
+								<p></p>
+								<div id="stanford-coursera"></div>
+								</div>
+							</div> 
+							
+							<div class="footer-widget">
+								<div class="sidebar-widget-title"><span>Tags</span></div> 
+								<div class="tagcloud">
+									<a href="http://startuphub.io/#">startups</a>
+									<a href="http://startuphub.io/#">community</a>
+									<a href="http://startuphub.io/#">support</a>
+									<a href="http://startuphub.io/#">team building</a>
+									<a href="http://startuphub.io/#">tech talk</a>
+									<a href="http://startuphub.io/#">partner search</a>
+									<a href="http://startuphub.io/#">entrepreneurship</a>
+									<a href="http://startuphub.io/#">stanford</a>
+									<a href="http://startuphub.io/#">startup</a>
+									<a href="http://startuphub.io/#">engineering</a>
+									<a href="http://startuphub.io/#">coursera</a>
+								</div>
+							</div> 		
+							<div class="footer-widget footer-widget-last">		
+								<div class="sidebar-widget-title"><span>Quick Links</span></div> 		
+								<ul>
+									<li>
+										<a href="public/imagesStartupHub.io   A global community for dreamers and doers.html">Home</a>
+									</li>
+									<li>
+										<a href="http://startuphub.io/features">Features</a>
+									</li>
+									<li>
+										<a href="http://startuphub.io/#">Donate</a>
+									</li>
+									<li>
+										<a href="http://startuphub.io/faq">FAQ</a>
+									</li>
+									<li>
+										<a href="http://startuphub.io/contact">Contact</a>
+									</li>
+								</ul>
+							</div> 						
+							<div class="cleared"></div>
+								
+						</div><!-- End Footer Widget Container-->
+					
+					</div>
+				</div> 
+			</div> <!-- End Footer -->
+			<div id="footer-bottom">
+				<div class="wrap">	
+					<div id="footer-copyright">
+						StartupHub.io - 2013		
+					</div>
+					<div id="footer-right">
+						<a class="social social-facebook" href="http://www.facebook.com/StartupHub.io" target="_blank">facebook</a>
+						<a class="social social-twitter" href="http://www.twitter.com/startuphubio" target="_blank">twitter</a>
+					</div>
+					<div class="cleared"></div>
+				</div>
+			</div><!-- End Footer Bottom -->
+
+
+			<!-- AddThis Smart Layers BEGIN -->
+			<!-- Go to http://www.addthis.com/get/smart-layers to customize -->
+			<script type="text/javascript" src="public/images/addthis_widget.js"></script><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; z-index: 100000;"><iframe id="_atssh912" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; z-index: 100000; border: 0px; left: 0px; top: 0px;" src="public/imagessh136.html"></iframe></div><script type="text/javascript" src="public/imagescore098.js"></script>
+			<script type="text/javascript">
+			  addthis.layers({
+			    'theme' : 'transparent',
+			    'share' : {
+			      'position' : 'left',
+			      'numPreferredServices' : 3
+			    }   
+			  });
+			</script>
+			<!-- AddThis Smart Layers END -->
+
+		</div><iframe src="public/imageswidget.html" id="coinbase_modal_iframe_65f5f1a0e6b924b06266bc94af24643e" name="coinbase_modal_iframe_65f5f1a0e6b924b06266bc94af24643e" style="background-color: transparent; border: 0px none transparent; overflow: hidden; display: none; position: fixed; visibility: visible; margin: 0px; padding: 0px; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 9999;" scrolling="no" allowtransparency="true" frameborder="0"></iframe><!-- End Page -->
+	<!-- End Site Background -->
